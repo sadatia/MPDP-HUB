@@ -1,0 +1,7 @@
+services:
+  launch-page:
+    build: .
+    container_name: mpdp-site-container
+    ports:
+      - "4455:4455"
+    restart: always
