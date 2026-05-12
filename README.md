@@ -16,5 +16,5 @@ This project is fully dockerized for easy deployment.
 ### Commands
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/sadatia/MPDP-HUB.git](https://github.com/sadatia/MPDP-HUB.git)
+   git clone https://github.com/sadatia/MPDP-HUB.git
    cd MPDP-HUB
