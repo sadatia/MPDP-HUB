@@ -92,6 +92,8 @@ app.get('/', (req, res) => {
                     <a href="https://manhour.mpdp-p1-ptjv.net/" target="_blank" class="btn"><i class="fa-solid fa-stopwatch"></i> Manhour Tracking</a>
                     <a href="https://tbm.mpdp-p1-ptjv.net/" target="_blank" class="btn"><i class="fa-solid fa-bore-hole"></i> TBM Health Dec</a>
                     <a href="https://sic.mpdp-p1-ptjv.net/" target="_blank" class="btn"><i class="fa-solid fa-comment-dots"></i> SIC Feedback</a>
+                    <!-- Fixed Icon Below: Changed to fa-water -->
+                    <a href="https://tide.mpdp-p1-ptjv.net/" target="_blank" class="btn"><i class="fa-solid fa-water"></i> TIDE Monitoring Feedback</a>
                 </div>
 
                 <div class="column right-column">
@@ -131,7 +133,6 @@ app.get('/', (req, res) => {
                 chevron.classList.toggle('rotate');
             }
 
-            // Close dropdown if user clicks outside
             window.onclick = function(event) {
                 if (!event.target.matches('.btn') && !event.target.closest('.dropdown-container')) {
                     const dropdown = document.getElementById('otDropdown');
